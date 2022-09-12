@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>2022 judges 1st edition scoring form</title>
+</head>
+<style>
+    img {
+        height: 200px;
+        width: 510px;
+    }
+    
+    body {
+        background: #DA22FF;
+        background: -webkit-linear-gradient(to right, #9733EE, #DA22FF);
+        background: linear-gradient(to right, #9733EE, #DA22FF);
+    }
+</style>
+
+<body>
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-lg-5 col-md-8 mx-auto shadow border bg-white p-4 rounded">
+                <marquee class="text-center fw-bold mb-3">2022 JUDGES 1ST EDITION SCORING FORM</marquee>
+                <img src="images/sama-logo.webp">
+                <form name="google-sheet">
+                    <div id="form_alerts"></div>
+                    <div class="form-group mb-3">
+                        <label for="email" class="form-label">Email *</label>
+                        <input type="email" id="email" name="Email" class="form-control" placeholder="Enter your email address" required>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label>Scoring spectrum</label>
+                        <table class="table table-bordered table-dark">
+                            <thead>
+                                <tr>
+                                    <th scope="col">1 - 1.5</th>
+                                    <th scope="col">1.5 - 3</th>
+                                    <th scope="col">3 - 5</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Low</td>
+                                    <td>Mid Range</td>
+                                    <td>High</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="name" class="form-label">Judges Name *</label>
+                        <select class="form-control" name="judges name" id="judges name" required>
+                            <option value="">Choose</option>
+                            <option value="waihiga k. muturi">Waihiga K. Muturi</option>
+                            <option value="tassilo fetstetics">Tassilo Fetstetics</option>
+                            <option value="noreen likiman">Noreen Likiman</option>
+                            <option value="aisha ali">Aisha Ali</option>
+                            <option value="joshua okello">Joshua Okello</option>
+                            <option value="lilian kiplangat">Lilian Kiplangat</option>
+                          </select>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="name" class="form-label">Which team are you scoring *</label>
+                        <select class="form-control" name="Which team are you scoring?" id="judges name" required>
+                            <option value="">Choose</option>
+                            <option value="Sabeen Food">Sabeen Food</option>
+                            <option value="Arigiene- LTD">Arigiene- LTD</option>
+                            <option value="Eko Dudu Ranch">Eko Dudu Ranch</option>
+                            <option value="Art Afriq">Art Afriq</option>
+                            <option value="Singlepay Tech">Singlepay Tech</option>
+                            <option value="Aqua Bio Sand">Aqua Bio Sand</option>
+                            <option value="Waste To Resources">Waste To Resources</option>
+                          </select>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="name" class="form-label">Does the team demonstrate a plan on making this a successful business *</label>
+                        <select class="form-control" name="Does the team demonstrate a plan on making this a successful business" id="judges name" required>
+                            <option value="">Choose</option>
+                            <option value="1">1</option>
+                            <option value="1.5">1.5</option>
+                            <option value="2">2</option>
+                            <option value="2.5">2.5</option>
+                            <option value="3">3</option>
+                            <option value="3.5">3.5</option>
+                            <option value="4">4</option>
+                            <option value="4.5">4.5</option>
+                            <option value="5">5</option>
+                          </select>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="message" class="form-label">Comment *</label>
+                        <textarea id="message" name="Comment" class="form-control" placeholder="comment section" rows="5" required></textarea>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="name" class="form-label">Does the team clearly demonstrate the problem they are solving and prove its feasibility *</label>
+                        <select class="form-control" name="Does the team clearly demonstrate the problem they are solving and prove its feasibility" id="judges name" required>
+                            <option value="">Choose</option>
+                            <option value="1">1</option>
+                            <option value="1.5">1.5</option>
+                            <option value="2">2</option>
+                            <option value="2.5">2.5</option>
+                            <option value="3">3</option>
+                            <option value="3.5">3.5</option>
+                            <option value="4">4</option>
+                            <option value="4.5">4.5</option>
+                            <option value="5">5</option>
+                          </select>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="message" class="form-label">Comment *</label>
+                        <textarea id="message" name="Comment" class="form-control" placeholder="comment section" rows="5" required></textarea>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="name" class="form-label">Economic Model is well articulated and supported with operating data *</label>
+                        <select class="form-control" name="Economic Model is well articulated and supported with operating data." id="judges name" required>
+                            <option value="">Choose</option>
+                            <option value="1">1</option>
+                            <option value="1.5">1.5</option>
+                            <option value="2">2</option>
+                            <option value="2.5">2.5</option>
+                            <option value="3">3</option>
+                            <option value="3.5">3.5</option>
+                            <option value="4">4</option>
+                            <option value="4.5">4.5</option>
+                            <option value="5">5</option>
+                          </select>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="message" class="form-label">Comment *</label>
+                        <textarea id="message" name="Comment" class="form-control" placeholder="comment section" rows="5" required></textarea>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="name" class="form-label">Does the team clearly demonstrate the value of this solution. What is their value proposition to their customers *</label>
+                        <select class="form-control" name="Does the team clearly demonstrate the value of this solution. What is their value proposition to their customers" id="judges name" required>
+                            <option value="">Choose</option>
+                            <option value="1">1</option>
+                            <option value="1.5">1.5</option>
+                            <option value="2">2</option>
+                            <option value="2.5">2.5</option>
+                            <option value="3">3</option>
+                            <option value="3.5">3.5</option>
+                            <option value="4">4</option>
+                            <option value="4.5">4.5</option>
+                            <option value="5">5</option>
+                          </select>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="message" class="form-label">Comment *</label>
+                        <textarea id="message" name="Comment" class="form-control" placeholder="comment section" rows="5" required></textarea>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="name" class="form-label">Does team demonstrate a good knowledge of their market, their customers, their competitors *</label>
+                        <select class="form-control" name="Does team demonstrate a good knowledge of their market, their customers, their competitors" id="judges name" required>
+                            <option value="">Choose</option>
+                            <option value="1">1</option>
+                            <option value="1.5">1.5</option>
+                            <option value="2">2</option>
+                            <option value="2.5">2.5</option>
+                            <option value="3">3</option>
+                            <option value="3.5">3.5</option>
+                            <option value="4">4</option>
+                            <option value="4.5">4.5</option>
+                            <option value="5">5</option>
+                          </select>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="message" class="form-label">Comment *</label>
+                        <textarea id="message" name="Comment" class="form-control" placeholder="comment section" rows="5" required></textarea>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="name" class="form-label">Does team know what customers think about their product. Go to market, sales strategy and sales cycle are clearly define *</label>
+                        <select class="form-control" name="Does team know what customers think about their product. Go to market, sales strategy and sales cycle are clearly defined." id="judges name" required>
+                            <option value="">Choose</option>
+                            <option value="1">1</option>
+                            <option value="1.5">1.5</option>
+                            <option value="2">2</option>
+                            <option value="2.5">2.5</option>
+                            <option value="3">3</option>
+                            <option value="3.5">3.5</option>
+                            <option value="4">4</option>
+                            <option value="4.5">4.5</option>
+                            <option value="5">5</option>
+                          </select>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="message" class="form-label">Comment *</label>
+                        <textarea id="message" name="Comment" class="form-control" placeholder="comment section" rows="5" required></textarea>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="name" class="form-label">Do they have a functional demo product that  provides a compelling and captivating user experience *</label>
+                        <select class="form-control" name="Do they have a functional demo product that  provides a compelling and captivating user experience" id="judges name" required>
+                            <option value="">Choose</option>
+                            <option value="1">1</option>
+                            <option value="1.5">1.5</option>
+                            <option value="2">2</option>
+                            <option value="2.5">2.5</option>
+                            <option value="3">3</option>
+                            <option value="3.5">3.5</option>
+                            <option value="4">4</option>
+                            <option value="4.5">4.5</option>
+                            <option value="5">5</option>
+                          </select>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="message" class="form-label">Comment *</label>
+                        <textarea id="message" name="Comment" class="form-control" placeholder="comment section" rows="5" required></textarea>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="name" class="form-label">Clearly defined vision and growth objectives Coherent and convincing go-to-market strategy Clear execution plan, prepared to address risks *</label>
+                        <select class="form-control" name="Clearly defined vision and growth objectives Coherent and convincing go-to-market strategy Clear execution plan, prepared to address risks" id="judges name" required>
+                            <option value="">Choose</option>
+                            <option value="1">1</option>
+                            <option value="1.5">1.5</option>
+                            <option value="2">2</option>
+                            <option value="2.5">2.5</option>
+                            <option value="3">3</option>
+                            <option value="3.5">3.5</option>
+                            <option value="4">4</option>
+                            <option value="4.5">4.5</option>
+                            <option value="5">5</option>
+                          </select>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="message" class="form-label">Comment *</label>
+                        <textarea id="message" name="Comment" class="form-control" placeholder="comment section" rows="5" required></textarea>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="name" class="form-label">Core values support venture’s vision and desired outcomes
+                            *</label>
+                        <select class="form-control" name="Core values support venture’s vision and desired outcomes
+                        " required>
+                        <option value="">Choose</option>
+                        <option value="1">1</option>
+                        <option value="1.5">1.5</option>
+                        <option value="2">2</option>
+                        <option value="2.5">2.5</option>
+                        <option value="3">3</option>
+                        <option value="3.5">3.5</option>
+                        <option value="4">4</option>
+                        <option value="4.5">4.5</option>
+                        <option value="5">5</option>
+                          </select>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label for="message" class="form-label">Comment *</label>
+                        <textarea id="message" name="Comment" class="form-control" placeholder="comment section" rows="5" required></textarea>
+                    </div>
+
+                    <div>
+                        <button class="btn btn-primary me-2" type="submit">Send message!</button>
+                        <button class="btn btn-danger" type="reset">Reset the form!</button>
+                    </div>
+            </div>
+            </form>
+        </div>
+    </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwlNxvr6a_isWB31mp5IK5Ot8xwUAv8wXAyTat8AqPUfLsdFWHFYnaWOXxuH0jNL7vH/exec'
+        const form = document.forms['google-sheet']
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, {
+                    method: 'POST',
+                    body: new FormData(form)
+                })
+                .then(response => $("#form_alerts").html("<div class='alert alert-success'>Contact message sent successfully.</div>"))
+                .catch(error => $("#form_alerts").html("<div class='alert alert-danger'>Contact message not sent.</div>"))
+        })
+    </script>
+</body>
+
+</html>
